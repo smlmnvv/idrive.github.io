@@ -1,0 +1,173 @@
+body {
+    font-family: Finlandica, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1370px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color:rgb(229, 226, 226);
+}
+
+.header_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.nav {
+    text-align: center;
+}
+
+.nav_link {
+    text-decoration: none;
+    color:black;
+    margin: 0 20px;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgb(229, 226, 226);
+}
+
+
+.number {
+    color:black;
+    text-align: right;
+}
+
+.intro {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    height: 200px;
+    padding-top: 10px;
+    background-size: cover;
+    position: relative;
+    margin-right: 5%;
+    font-family: Finlandica, Arial;
+    margin-bottom: 3%;
+    margin-right: 9%;
+}
+
+.box {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin-top: -110px;
+    margin-left: 25%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+select {
+    width: 150px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #eee;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+label {
+    position: relative;
+}
+
+    label:after {
+        content: '<>';
+        font: 11px "Consolas", monospace;
+        color: #666;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        right: 8px;
+        top: 2px;
+        padding: 0 0 2px;
+        border-bottom: 1px solid #ddd;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    label:before {
+        content: '';
+        right: 6px;
+        top: 0px;
+        width: 20px;
+        height: 20px;
+        background: #eee;
+        position: absolute;
+        pointer-events: none;
+        display: block;
+    }
+.btn {
+    font-size: 20px;
+    color: #fff;
+    background: green;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-size: 200%;
+    margin-top: 10px;
+    border-color: green;
+}
+
+    .btn:hover {
+        background-position: right;
+    }
+.btn1 {
+    font-size: 20px;
+    color: #fff;
+    background: rgb(199, 11, 11);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-size: 200%;
+    border-color: rgb(199, 11, 11);
+}
+
+    .btn1:hover {
+        background-position: right;
+    }

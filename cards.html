@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Finlandica:ital@1&family=Karla:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mycsscards.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карты</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo">
+                    <img src="logo.png" width="150px">
+                </div>
+                <nav class="nav">
+                    <a class="nav_link" href="branches.html">Филиалы</a>
+                    <a class="nav_link" href="booking.html">Бронирование</a>
+                    <a class="nav_link" href="profile.html">Личный кабинет</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="info">
+        <ul class="info__list">
+            <li class="info__item">
+                <h1 class='inf'>Ваши карты:</h1>
+            </li>
+            <li class="info__item">
+                <h3 class='numb'>1234 5678 9012 3456</h3>
+                <img src='mcard.png' class='mcard'>
+            </li>
+            <li class="info__item">
+                <h3 class='akt'>Срок активности: 10/23</h3>
+                <li class="info__item">
+                    <h3 class='numb'>2456 1753 4765 3321</h3>
+                    <img src='mir.png' class='mcard'>
+                </li>
+                <li class="info__item">
+                    <h3 class='akt'>Срок активности: 10/23</h3>
+                <li class='bttn1'>
+                    <a href ='#openModal' class="btn1">Добавить карту</a>
+                    <div id="openModal" class="modalDialog">
+                        <div>
+                         <a href="#close" title="Закрыть" class="close">X</a>
+                        <h2>Добавить карту</h2>               
+                        <label for="number"><b>Номер карты</b></label>
+                        <input type="text" placeholder="Введите номер карты" name="number" required>
+                        <label for="imya"><b>Владелец карты</b></label>
+                        <input type="text" placeholder="Введите имя и фамилию" name="imya" required>                       
+                        <label for="srok"><b>Срок действия</b></label>
+                        <input type="text" placeholder="Введите срок действия" name="srok" required>
+                        <label for="cvv"><b>CVV/CVC</b></label>
+                        <input type="text" placeholder="Введите CVV/CVC" name="cvv" required>
+                        <a href ='#' class="btttn1">Добавить</a>  
+                                </div>     
+                        </div>
+                        
+                </li>   
+            </ul>
+            <a href ='#' class="btn" input type="submit" onclick="return confirm('Вы уверены?')">Удалить карты</a>
+                            </div>     
+                    </div>
+                    
+            </li>   
+        </ul>
+    <footer class='footer'>
+        <nav class="nav">
+            <a class="nav_link" href="branches.html">Филиалы</a>
+            <a class="nav_link" href="booking.html">Бронирование</a>
+            <a class="nav_link" href="profile.html">Личный кабинет</a>
+            <p class="number">8 (800) 555-35-35</p>
+        </nav>
+    </footer>
+</body>
+</html>

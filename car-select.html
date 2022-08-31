@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Finlandica:ital@1&family=Karla:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="carselect.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор авто</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo">
+                    <img src="logo.png" width="150px">
+                </div>
+                <nav class="nav">
+                    <a class="nav_link" href="branches.html">Филиалы</a>
+                    <a class="nav_link" href="booking.html">Бронирование</a>
+                    <a class="nav_link" href="profile.html">Личный кабинет</a>
+                </nav>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="box">
+            <h1 class="marka">Выбор автомобиля:</h1>
+            <h4 class="marka">Марка:</h4>
+            <select size="1" name="hero[]">
+                <option value="Toyota">Toyota</option>
+                <option selected value="Mitsubishi">Mitsubishi</option>
+                <option value="Infiniti">Infiniti</option>
+                <option value="Kia">Kia</option>
+            </select>
+
+            <h4>Модель:</h4>
+            <select size="1" name="hero[]">
+                <option selected value="Camry">Camry</option>
+                <option value="Lancer">Lancer</option>
+                <option value="QX50">QX50</option>
+                <option value="Rio">Rio</option>
+            </select>
+
+
+            <h4>Цвет:</h4>
+            <select size="1" name="hero[]">
+                <option value="Черный">Черный</option>
+                <option selected value="Серый">Белый</option>
+                <option value="Белый">Серый</option>
+            </select>
+
+            <h4>Тип двигателя:</h4>
+            <select size="1" name="hero[]" style="width: 150px;">
+                <option value="Дизельный">Дизельный</option>
+                <option selected value="Бензиновый">Бензиновый</option>
+            </select>
+
+            <h4>Тип КПП:</h4>
+            <select size="1" name="hero[]" style="width: 150px;">
+                <option value="МКП">МКП</option>
+                <option selected value="АКП">АКП</option>
+            </select>
+            <br>
+            <button class="btn"><h4>Выбрать</h4></button>
+            <p>
+                <button class="btn1"><h4>Удалить</h4></button>
+            </p>
+        </div>
+    </div>
+    <footer class='footer'>
+        <nav class="nav">
+            <a class="nav_link" href="branches.html">Филиалы</a>
+            <a class="nav_link" href="booking.html">Бронирование</a>
+            <a class="nav_link" href="profile.html">Личный кабинет</a>
+            <p class="number">8 (800) 555-35-35</p>
+        </nav>
+    </footer>
+</body>
+</html>
